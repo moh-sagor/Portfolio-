@@ -1,5 +1,7 @@
 import React from "react";
 import Typical from "react-typical";
+import './Profile.css';
+
 
 const Profile = () => {
   return (
@@ -7,15 +9,17 @@ const Profile = () => {
       <div className="profile-parent">
         <div className="profile-details">
           <div className="colz">
-            <a href="https://web.facebook.com/md.sagor.rzs/" target="_blank">
-              <i className="fa fa-facebook-square"></i>
-            </a>
-            <a href="https://github.com/moh-sagor" target="_blank">
-              <i className="fa fa-github-square"></i>
-            </a>
-            <a href="https://twitter.com/s0707Sagor" target="_blank">
-              <i className="fa fa-twitter"></i>
-            </a>
+            <div className="colz-icon">
+              <a href="https://web.facebook.com/md.sagor.rzs/" target="_blank">
+                <i className="fa fa-facebook-square"></i>
+              </a>
+              <a href="https://github.com/moh-sagor" target="_blank">
+                <i className="fa fa-github-square"></i>
+              </a>
+              <a href="https://twitter.com/s0707Sagor" target="_blank">
+                <i className="fa fa-twitter"></i>
+              </a>
+            </div>
           </div>
         </div>
         <div className="profile-details-name">
@@ -30,13 +34,36 @@ const Profile = () => {
             <h1>
               {" "}
               <Typical
-                steps={["Hello", 1000, "Hello world!", 500]}
                 loop={Infinity}
+                steps={[" Ethusiastic Developer 😎", 2000,
+                  "Full Stack Developer 💝", 2000,
+                  "React.js Developer 💕", 2000,
+                  "Django Developer 💖", 2000,
+                  "Cross Platform Developer 🌹 ", 2000,
+                ]}
                 wrapper="p"
               />
             </h1>
-            <h1></h1>
+            <span className="profile-role-tagline">
+              Knack of building applications with front and back operations.
+            </span>
           </span>
+        </div>
+        <div className="profile-options">
+          <button className="btn primary-btn">
+            {""}
+            Hire Me{""}
+          </button>
+          <a href="Md_Sagor_Hossain.pdf" download='Md_Sagor_Hossain.pdf'>
+            <button className='btn highlighted-btn'>
+              Get Resume
+            </button>
+          </a>
+        </div>
+      </div>
+      <div className="profile-picture">
+        <div className="profile-picture-background">
+
         </div>
       </div>
     </div>
