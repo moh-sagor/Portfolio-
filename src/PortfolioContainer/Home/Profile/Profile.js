@@ -1,9 +1,10 @@
 import React from "react";
 import Typical from "react-typical";
 import './Profile.css';
+import { Button } from "react-bootstrap";
 
 
-const Profile = () => {
+export default function Footer() {
   return (
     <div className="profile-container">
       <div className="profile-parent">
@@ -50,14 +51,14 @@ const Profile = () => {
           </span>
         </div>
         <div className="profile-options">
-          <button className="btn primary-btn">
+          <Button className="btn">
             {""}
             Hire Me{""}
-          </button>
+          </Button>
           <a href="Md_Sagor_Hossain.pdf" download='Md_Sagor_Hossain.pdf'>
-            <button className='btn highlighted-btn'>
+            <Button className='btn_1'>
               Get Resume
-            </button>
+            </Button>
           </a>
         </div>
       </div>
@@ -68,6 +69,4 @@ const Profile = () => {
       </div>
     </div>
   );
-};
-
-export default Profile;
+}
