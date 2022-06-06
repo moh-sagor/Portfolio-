@@ -1,5 +1,6 @@
 import Home from './PortfolioContainer/Home/Home';
 import AboutMe from './PortfolioContainer/AboutMe/AboutMe';
+import Resume from './PortfolioContainer/Resume/Resume';
 import './App.css';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Home />
       <AboutMe />
+      <Resume />
     </div>
   );
 }
