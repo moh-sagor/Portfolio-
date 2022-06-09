@@ -5,9 +5,7 @@ import {
     CardBody,
     Collapse,
     Row,
-    Col,
-    CardTitle,
-    CardText,
+    Col
 } from "reactstrap";
 // import "./styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -42,31 +40,31 @@ export default function Resume() {
                             <div className="articles-buttons">
                                 <Row>
                                     <Col sm="4">
-                                        <Button
+                                        <button
                                             className="article2-button"
-                                            color="primary"
+                                            // color="primary"
                                             onClick={() => handleArticleOpen("1")}
                                         >
                                             SSC
-                                        </Button>
+                                        </button>
                                     </Col>
                                     <Col sm="4">
-                                        <Button
-                                            className="article1-button"
-                                            color="secondary"
+                                        <button
+                                            className="article2-button"
+                                            // color="secondary"
                                             onClick={() => handleArticleOpen("2")}
                                         >
                                             HSC
-                                        </Button>
+                                        </button>
                                     </Col>
                                     <Col sm="4">
-                                        <Button
+                                        <button
                                             className="article2-button"
                                             color="primary"
                                             onClick={() => handleArticleOpen("3")}
                                         >
                                             B.Sc
-                                        </Button>
+                                        </button>
                                     </Col>
                                 </Row>
                             </div>

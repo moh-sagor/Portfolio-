@@ -1,6 +1,7 @@
 
 import React from "react";
 import { Row, Col, Card, CardTitle, CardText, Button } from "reactstrap";
+import './AboutMe.css';
 
 export default function AboutMe() {
     return (
@@ -32,7 +33,7 @@ export default function AboutMe() {
                             professional Web Developer and Designer. I develop eye catching
                             website with backend functionality. My work area is,
 
-                            <ul style={{ listStyleType: "circle", paddingTop: "3rem" }}>
+                            <ul style={{ listStyleType: "circle", paddingTop: "2rem", paddingBottom: "1.7rem" }}>
                                 <strong>
                                     <li>Full Stack Developer</li>
                                     <li>React.JS</li>
@@ -51,12 +52,16 @@ export default function AboutMe() {
 
                                 </strong>
                             </ul>
-
-
                         </CardText>
-                        <br />
-                        <br />
-                        <Button>Hire Me</Button>
+
+                        <div class="button2">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <a style={{ textDecoration: 'none', fontSize: '20px' }} href="#">HIRE ME</a>
+                        </div>
+
                     </Card>
                 </Col>
             </Row>
