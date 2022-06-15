@@ -1,7 +1,7 @@
-
 import React from "react";
 import { Row, Col, Card, CardTitle, CardText, Button } from "reactstrap";
 import './AboutMe.css';
+import HireMe from "../HireMe/HireMe";
 
 export default function AboutMe() {
     return (
@@ -59,7 +59,7 @@ export default function AboutMe() {
                             <span></span>
                             <span></span>
                             <span></span>
-                            <a style={{ textDecoration: 'none', fontSize: '20px' }} href="#">HIRE ME</a>
+                            <a style={{ textDecoration: 'none', fontSize: '20px' }} href="#"><HireMe /></a>
                         </div>
 
                     </Card>

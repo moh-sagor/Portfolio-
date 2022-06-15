@@ -2,6 +2,7 @@ import React from "react";
 import Typical from "react-typical";
 import './Profile.css';
 import { Button } from "react-bootstrap";
+import HireMe from "../../HireMe/HireMe";
 
 
 export default function Footer() {
@@ -54,7 +55,7 @@ export default function Footer() {
           <div className="profile-options">
             <Button className="btn">
               {""}
-              Hire Me{""}
+              <HireMe />{""}
             </Button>
             <a href="Md_Sagor_Hossain.pdf" download='Md_Sagor_Hossain.pdf'>
               <Button className='btn_1'>

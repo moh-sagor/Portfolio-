@@ -1,12 +1,13 @@
 import * as React from "react";
 import {
-    Button,
+    // Button,
     Card,
     CardBody,
     Collapse,
     Row,
     Col
 } from "reactstrap";
+// import Modal from 'react-bootstrap/Modal';
 // import "./styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Resume.css";
@@ -24,7 +25,6 @@ export default function Resume() {
             article,
         }));
     };
-
     return (
         <div
             className="container"
@@ -70,6 +70,7 @@ export default function Resume() {
                             </div>
 
                             <Collapse isOpen={article === "3"}>
+
                                 <aside className="profile-card">
                                     <header>
                                         <a target="_blank" href="#">
@@ -95,6 +96,7 @@ export default function Resume() {
                                 </aside>
                             </Collapse>
 
+
                             <Collapse isOpen={article === "2"}>
                                 <aside className="profile-card">
                                     <header>
@@ -115,7 +117,7 @@ export default function Resume() {
                                             <strong>Session : </strong>2016
                                         </p>
                                         <p>
-                                            <strong>GPA : </strong>4.98 out of 5
+                                            <strong>GPA : </strong>4.92 out of 5
                                         </p>
                                     </div>
                                 </aside>
@@ -151,6 +153,6 @@ export default function Resume() {
                 </Card>
             </Collapse>
             <br /> <br />
-        </div>
+        </div >
     );
 }
