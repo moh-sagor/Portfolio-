@@ -33,7 +33,7 @@ export default function AboutMe() {
                             professional Web Developer and Designer. I develop eye catching
                             website with backend functionality. My work area is,
 
-                            <ul style={{ listStyleType: "circle", paddingTop: "2rem", paddingBottom: "1.7rem" }}>
+                            <ul style={{ listStyleType: "circle", paddingTop: "0.7rem", paddingBottom: "1.4rem" }}>
                                 <strong>
                                     <li>Full Stack Developer</li>
                                     <li>React.JS</li>
@@ -61,6 +61,10 @@ export default function AboutMe() {
                             <span></span>
                             <a style={{ textDecoration: 'none', fontSize: '20px' }} href="#"><HireMe /></a>
                         </div>
+
+                        <marquee behavior="scroll" direction="left"
+                        >Thank you so much for visiting my Portfolio website.
+                        </marquee>
 
                     </Card>
                 </Col>

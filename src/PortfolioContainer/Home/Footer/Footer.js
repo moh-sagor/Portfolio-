@@ -6,9 +6,7 @@ export default function Footer() {
         <div className='footer-container'>
             <div className='footer-parent'>
                 <img src={require('../../../assets/Home/shapebg.png')} alt='no internet connection' />
-
             </div>
-
         </div>
     )
 }
