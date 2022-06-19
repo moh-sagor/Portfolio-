@@ -54,13 +54,8 @@ export default function AboutMe() {
                             </ul>
                         </CardText>
 
-                        <div class="button2">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <a style={{ textDecoration: 'none', fontSize: '20px' }} href="#"><HireMe /></a>
-                        </div>
+
+                        <button className="glow-on-hover" type="button"><HireMe /></button>
 
                         <marquee behavior="scroll" direction="left"
                         >Thank you so much for visiting my Portfolio website.
