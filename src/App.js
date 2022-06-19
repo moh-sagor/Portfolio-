@@ -2,7 +2,7 @@ import Home from './PortfolioContainer/Home/Home';
 import AboutMe from './PortfolioContainer/AboutMe/AboutMe';
 import Resume from './PortfolioContainer/Resume/Resume';
 import './App.css';
-// import ContactMe from './PortfolioContainer/ContactMe/ContactMe';
+import ContactMe from './PortfolioContainer/ContactMe/ContactMe';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Home />
       <AboutMe />
       <Resume />
-      {/* <ContactMe /> */}
+      <ContactMe />
     </div>
   );
 }
