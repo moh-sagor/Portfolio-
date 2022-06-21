@@ -11,6 +11,8 @@ import {
 // import "./styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Resume.css";
+import Button from 'react-bootstrap/Button';
+
 
 export default function Resume() {
     const [state, setState] = React.useState({
@@ -73,7 +75,7 @@ export default function Resume() {
 
                                 <aside className="profile-card">
                                     <header>
-                                        <a target="_blank" href="#">
+                                        <a href="education">
                                             <img
                                                 src={require("../../assets/Resume/daffodil.jpg")}
                                                 className="hoverZoomLink"
@@ -92,15 +94,20 @@ export default function Resume() {
                                         <p>
                                             <strong>CGPA : </strong>3.71 out of 4
                                         </p>
+
                                     </div>
+
+                                    <a style={{ textDecoration: 'none', align: "center", padding: '40%' }} href="education">Close</a>
+
                                 </aside>
+
                             </Collapse>
 
 
                             <Collapse isOpen={article === "2"}>
                                 <aside className="profile-card">
                                     <header>
-                                        <a target="_blank" href="#">
+                                        <a href="education">
                                             <img
                                                 src={require("../../assets/Resume/hsc.jpg")}
                                                 className="hoverZoomLink"
@@ -120,12 +127,13 @@ export default function Resume() {
                                             <strong>GPA : </strong>4.92 out of 5
                                         </p>
                                     </div>
+                                    <a style={{ textDecoration: 'none', align: "center", padding: '40%' }} href="education">Close</a>
                                 </aside>
                             </Collapse>
                             <Collapse isOpen={article === "1"}>
                                 <aside className="profile-card">
                                     <header>
-                                        <a target="_blank" href="#">
+                                        <a href="education">
                                             <img
                                                 src={require("../../assets/Resume/ssc.png")}
                                                 className="hoverZoomLink"
@@ -145,6 +153,7 @@ export default function Resume() {
                                             <strong>GPA : </strong>5 out of 5
                                         </p>
                                     </div>
+                                    <a style={{ textDecoration: 'none', align: "center", padding: '40%' }} href="education">Close</a>
                                 </aside>
                             </Collapse>
                         </div>

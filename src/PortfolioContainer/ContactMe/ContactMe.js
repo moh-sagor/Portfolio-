@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./ContactMe.css";
-import { Alert } from 'react-bootstrap';
 
 export default function ConnectMe() {
     const form = useRef();
@@ -18,26 +17,11 @@ export default function ConnectMe() {
             )
             .then(
                 (result) => {
-                    alert(result.text);
-                    <Alert variant="success">
-                        <Alert.Heading>Hey, nice to see you</Alert.Heading>
-                        <p>
-                            I get you message. I will react you shortly.
-                        </p>
-                        <hr />
-                        <p className="mb-0">
-                            Thanks for contact with me.
-                        </p>
-                    </Alert>
+                    alert(result.text)
+
                 },
                 (error) => {
                     alert(error.text);
-                    <Alert variant="danger" dismissible>
-                        <Alert.Heading>Oh snap! You got an error!</Alert.Heading>
-                        <p>
-                            Somethind went wrong. Please check you Network connection and try again.
-                        </p>
-                    </Alert>
                 }
             );
         e.target.reset();

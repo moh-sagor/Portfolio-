@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Card, CardTitle, CardText, Button } from "reactstrap";
+import { Row, Col, Card, CardTitle, CardText } from "reactstrap";
 import './AboutMe.css';
 import HireMe from "../HireMe/HireMe";
 
@@ -33,7 +33,7 @@ export default function AboutMe() {
                             professional Web Developer and Designer. I develop eye catching
                             website with backend functionality. My work area is,
 
-                            <ul style={{ listStyleType: "circle", paddingTop: "0.7rem", paddingBottom: "1.4rem" }}>
+                            <ul style={{ listStyleType: "circle", paddingTop: "0.5rem", paddingBottom: "1.2rem" }}>
                                 <strong>
                                     <li>Full Stack Developer</li>
                                     <li>React.JS</li>
@@ -52,6 +52,8 @@ export default function AboutMe() {
 
                                 </strong>
                             </ul>
+                            <br />
+                            <br />
                         </CardText>
 
 
