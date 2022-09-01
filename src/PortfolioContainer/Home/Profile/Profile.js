@@ -22,6 +22,10 @@ export default function Footer() {
                 <a href="https://twitter.com/s0707Sagor" target="_blank">
                   <i className="fa fa-twitter"></i>
                 </a>
+                <a href="https://www.linkedin.com/in/moh-sagor/" target="_blank">
+                  <i className="fa fa-linkedin-square"></i>
+                </a>
+
               </div>
             </div>
           </div>

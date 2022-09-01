@@ -22,18 +22,20 @@ function MyVerticallyCenteredModal(props) {
                 </p>
                 <hr />
                 <Row>
-                    <Col sm="6">
+                    <Col sm="4">
                         <a href="https://www.fiverr.com/ruzzahan" target="_blank">
                             <Button className="btn btn-primary">Fiverr</Button>
                         </a>
-
                     </Col>
-                    {/* <Col sm="4">
-                        <a href="https://www.fiverr.com/ruzzahan" target="_blank">
-                            <Button className="btn btn-success">Upwork</Button>
+
+                    <Col sm="4">
+                        <a href="https://www.upwork.com/freelancers/~01cd2a0cc7d37138f0" target="_blank">
+                            <Button className="btn btn-secondary">Upwork</Button>
                         </a>
-                    </Col> */}
-                    <Col sm="6">
+                    </Col>
+
+
+                    <Col sm="4">
                         <a href="mailto: sagorhassain4@gmail.com" target="_blank">
                             <Button className="btn btn-info">Email</Button>
                         </a>
